@@ -1,6 +1,6 @@
 id=fas_rs_mt6985
-name=fas-rs插件: mt6895
+name=fas-rs-mt6895
 version=v1
 versionCode=1
 author=github@shadow3aaa
-description=针对mt6895的额外优化
+description=fas-rs插件，针对mt6895的额外调整
