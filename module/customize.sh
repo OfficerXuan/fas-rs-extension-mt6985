@@ -17,4 +17,7 @@ if [ "$(getprop fas-rs-installed)" = "" ]; then
 	ui_print "Please install fas-rs first"
 	ui_print "请先安装fas-rs再安装此插件"
 	abort
+elif cat /sys/devices/soc0/soc_id | grep -iqv MT6895; then
+    ui_print "非mt6895设备"
+    abort
 fi
